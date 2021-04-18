@@ -60,6 +60,10 @@ class AddPostFragment : Fragment() {
             }
 
         }
+        closeBtn_addPostFrag.setOnClickListener {
+            Navigation.findNavController(it).navigate(R.id.action_addPostFragment_to_navigation_socialize )
+        }
+
 
 
     }

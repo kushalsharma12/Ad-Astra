@@ -37,6 +37,9 @@
         <action
             android:id="@+id/action_navigation_socialize_to_addPostFragment"
             app:destination="@id/navigation_addPost" />
+        <action
+            android:id="@+id/action_navigation_socialize_to_navigation_home"
+            app:destination="@id/navigation_home" />
     </fragment>
     <fragment
         android:id="@+id/navigation_addPost"

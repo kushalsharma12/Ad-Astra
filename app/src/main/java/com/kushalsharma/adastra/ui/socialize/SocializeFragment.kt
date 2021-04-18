@@ -51,7 +51,7 @@ class SocializeFragment : Fragment(), IPostAdapter {
 
         val currentUser = auth.currentUser!!
 
-        firebaseName_socialize.text = "Hi " + currentUser.displayName!!.toString()
+        firebaseName_socialize.text = "Hi " + currentUser.displayName!!.toString() + ","
 
         Glide.with(yourImg_socialize)
             .load(currentUser.photoUrl).circleCrop().into(yourImg_socialize)
@@ -64,6 +64,9 @@ class SocializeFragment : Fragment(), IPostAdapter {
         }
         fab_addPost_socialize.setOnClickListener {
             Navigation.findNavController(it).navigate(R.id.action_navigation_socialize_to_addPostFragment)
+        }
+        floatingActionButton.setOnClickListener {
+            Navigation.findNavController(it).navigate(R.id.action_navigation_socialize_to_navigation_home)
         }
     }
 

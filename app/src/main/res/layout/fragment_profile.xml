@@ -12,9 +12,12 @@
         android:id="@+id/cancel_btton_toSocialize"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="45dp"
-        android:background="@color/white"
-        android:src="@drawable/ic_baseline_cancel_24"
+        android:layout_margin="24dp"
+        android:tint="@color/white"
+        android:backgroundTint="@color/white"
+        android:elevation="8dp"
+        app:borderWidth="0dp"
+        android:src="@drawable/ic_baseline_close_24"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -22,19 +25,19 @@
         android:id="@+id/prTv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="60dp"
+        android:layout_marginLeft="30dp"
         android:layout_marginTop="28dp"
         android:text="My Profile"
         android:textColor="@color/white"
-        android:textSize="34sp"
+        android:textSize="28sp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cancel_btton_toSocialize" />
 
     <ImageView
         android:id="@+id/profile_Image"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:layout_marginTop="40dp"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="28dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/prTv" />
@@ -46,7 +49,7 @@
         android:layout_marginTop="20dp"
         android:text="Your Name"
         android:textColor="@color/white"
-        android:textSize="34sp"
+        android:textSize="30sp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/profile_Image" />
@@ -79,7 +82,7 @@
             android:id="@+id/pp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
+            android:layout_marginLeft="20dp"
             android:layout_marginTop="16dp"
             android:text="Photos"
             android:textColor="@color/black"
@@ -92,7 +95,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:layout_marginRight="50dp"
+            android:layout_marginRight="20dp"
             android:text="Follows"
             android:textColor="@color/black"
             android:textSize="20sp"
@@ -112,15 +115,47 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
+            android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
+            android:layout_marginLeft="44dp"
             android:layout_marginTop="4dp"
             android:text="25"
             android:textSize="20sp"
             android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/pp" />
+            app:layout_constraintTop_toBottomOf="@+id/pp"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="2000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textView3"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintStart_toEndOf="@+id/textView2"
+            app:layout_constraintTop_toBottomOf="@+id/fff"
+            app:layout_constraintVertical_bias="0.05" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="36dp"
+            android:text="105"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ff"
+            app:layout_constraintVertical_bias="0.2" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
