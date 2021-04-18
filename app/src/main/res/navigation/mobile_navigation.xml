@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.kushalsharma.adastra.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_Music"
+        android:name="com.kushalsharma.adastra.ui.music.MusicFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_music" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.kushalsharma.adastra.ui.profile.ProfileFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_navigation_profile_to_navigation_socialize"
+            app:destination="@id/navigation_socialize" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_socialize"
+        android:name="com.kushalsharma.adastra.ui.socialize.SocializeFragment"
+        android:label="fragment_socialize"
+        tools:layout="@layout/fragment_socialize" >
+        <action
+            android:id="@+id/action_navigation_socialize_to_navigation_profile"
+            app:destination="@id/navigation_profile" />
+        <action
+            android:id="@+id/action_navigation_socialize_to_addPostFragment"
+            app:destination="@id/navigation_addPost" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_addPost"
+        android:name="com.kushalsharma.adastra.AddPostFragment"
+        android:label="fragment_add_post"
+        tools:layout="@layout/fragment_add_post" >
+        <action
+            android:id="@+id/action_addPostFragment_to_navigation_socialize"
+            app:destination="@id/navigation_socialize" />
+    </fragment>
+</navigation>

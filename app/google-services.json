@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "781099324805",
+    "project_id": "ad-astra-bcfd8",
+    "storage_bucket": "ad-astra-bcfd8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:781099324805:android:c4449e1f611cb027b6a0ec",
+        "android_client_info": {
+          "package_name": "com.kushalsharma.adastra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "781099324805-iqqvnj9gdgdvq370g5vcgo7m370hlk6n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmSujQfYpJuyJhCs-C8ODU13wxiWV7wxI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "781099324805-iqqvnj9gdgdvq370g5vcgo7m370hlk6n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
