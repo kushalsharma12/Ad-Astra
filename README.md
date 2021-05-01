@@ -50,3 +50,14 @@ Because it fills creativity and imagination in kids as well as in youngsters. An
 🎇By 2024 NASA is again going to moon with humans and by 2030 NASA will set-up a lunar base on moon where humans will be living and practicing experiments. Many private space agencies had developed their own rockets and trying to to send humans for a space tour. So...
 
 ## Thinking big but putting a small step to get into a new world. Astra fills creativity and inspires you to create an impact for humans.
+
+
+![1](https://user-images.githubusercontent.com/65327113/116789093-caf37280-aaca-11eb-8cd6-e4640ea58fb6.png)
+![2](https://user-images.githubusercontent.com/65327113/116789102-d47cda80-aaca-11eb-9016-b55a1442c6c4.png)
+![3](https://user-images.githubusercontent.com/65327113/116789104-d5157100-aaca-11eb-8367-c1f933bdfe43.png)
+![4](https://user-images.githubusercontent.com/65327113/116789105-d5ae0780-aaca-11eb-9547-5b9cb6d44ae6.png)
+![5](https://user-images.githubusercontent.com/65327113/116789106-d6469e00-aaca-11eb-9c3e-149d3440b658.png)
+![6](https://user-images.githubusercontent.com/65327113/116789107-d6df3480-aaca-11eb-8af1-e7f5f0aa70d0.png)
+![7](https://user-images.githubusercontent.com/65327113/116789109-d777cb00-aaca-11eb-8a36-9944f700cf52.png)
+![8](https://user-images.githubusercontent.com/65327113/116789111-d8106180-aaca-11eb-8958-d9502585dddf.png)
+
