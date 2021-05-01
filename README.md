@@ -12,7 +12,9 @@ So we are encountering this problem by providing specific sounds from the nature
 
 ###### 🚀Problem 2- 
 
-We are not limiting our app to just for the use of astronauts it is also for the users who is on the planet earth and wanted to connect with the astronauts present in lower Earth orbit in ISS(as we know ISS had internet connection). Socialize tab will enable users to post threads & photos related to astrophysics and space science. A profile tab shows users profile and socialize tab will show all the post posted by different people around the world as well as in international space station.
+We are not limiting our app to just for the use of astronauts it is also for the users who is on the planet earth and wanted to connect with the astronauts present in lower Earth orbit in ISS(as we know ISS had internet connection).
+
+Socialize tab will enable users to post threads & photos related to astrophysics and space science. A profile tab shows users profile and socialize tab will show all the post posted by different people around the world as well as in international space station.
 
 ###### 🚀Problem 3- 
 
